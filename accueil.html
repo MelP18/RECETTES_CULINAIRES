@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- <p style="color: white;">Bienvenue</p> -->
+        <div class="block__left ">
+            <div class="block__left__content">
+                <div class="block__left__content__logo">
+                    <div class="header__logo">
+                        <a href=""><span class="mdi mdi-chef-hat"></span></a>
+                    </div>
+                </div>
+                <div class="user__menu ">
+
+                    <div class="user__menu__content">
+                        <ul class="user__menu__list">
+                            <li class="user__menu__list__item" data-menu="menu1">
+                                <a href="#">
+                                    <span class="mdi mdi-home active home"></span>
+                                    <h4>Accueil</h4>
+                                </a>
+                            </li>
+                            <li class="user__menu__list__item" data-menu="menu2">
+                                <a href="#">
+                                    <span class="mdi mdi-magnify search"></span>
+                                    <h4>Recherche</h4>
+                                </a>
+                            </li>
+                            <li class="user__menu__list__item" data-menu="menu3">
+                                <a href="#">
+                                    <span class="mdi mdi-plus add-recipe"></span>
+                                    <h4>Ajouter une recette</h4>
+                                </a>
+                            </li>
+                            <li class="user__menu__list__item" data-menu="menu4">
+                                <a href="#">
+                                    <span class="mdi mdi-room-service-outline mes-recettes"></span>
+                                    <h4>Mes recettes</h4>
+                                </a>
+                            </li>
+                            <li class="user__menu__list__item" data-menu="menu5">
+                                <a href="#">
+                                    <span class="mdi mdi-content-save-all-outline mes-enregistrements"></span>
+                                    <h4>Mes Enregistrements</h4>
+                                </a>
+                            </li>
+                            
+                           <!--  <li class="user__menu__list__item" data-menu="menu6">
+                                <a href="#">
+                                    <span class="mdi  mdi-arrow-collapse-all" data-menu="menu6"></span>
+                                    <h4>Catégories de recette</h4>
+                                </a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="block__right">
+            <div class="block__right__content">
+                <header>
+                    <div class="container__right active">
+                        <div class="block__right__header__content">
+                            <a href="#">
+                                <div class="menu__hamburger">
+                                    <span></span>
+                                </div>
+                            </a>
+                            <nav class="block__right__header__menu">
+                                <ul class="block__right__header__menu__list">
+                                   <!--  <li class="header__menu__list__one__item">
+                                        <a href="#">
+                                            <div class="header__menu__list__item__img">
+                                                <img src="assets/images/trois.jpg" alt="">
+                                            </div>
+                                            <span></span>
+                                            <h4 class="user__name"></h4>
+                                        </a>
+                                    </li>
+                                    <div class="disconnect">
+                                        <a href="login.html" id="disconnect">Deconnexion</a>
+                                    </div> -->
+                                    <li class="header__menu__list__two__item">
+                                        <span class="mdi mdi-logout"></span>
+                                        <div class="disconnect">
+                                            <a href="" id="disconnect">Deconnexion</a>
+                                        </div>
+                                    </li>
+                                    <li class="header__menu__list__one__item">
+                                        <a href="#">
+                                            <!-- <div class="header__menu__list__item__img">
+                                                <img src="assets/images/trois.jpg" alt="">
+                                            </div>
+                                            <span></span> -->
+                                            <h4 class="user__name"></h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </header>
+                <main>
+                    <div class="main__content">
+                        <ul class="main__content__list">
+                            <li class="main__content__list__item active" id="home">
+                                <div class="block__right__background">
+                                    <img src="assets/images/background_Cat.jpg" alt="">
+                                </div>
+                                <div class="block__right__foreground">
+                                    <div class="banner">
+                                        <div class="container__right">
+                                            <div class="banner__content">
+                                                <div class="banner__left__content">
+                                                    <div class="site">
+                                                        <div class="site__name">
+                                                            <h2 class="name"> MELP RECETTES </h2>
+                                                        </div>
+                                                        <div class="site__description">
+                                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                Ducimus, dolorum
+                                                                laborum odit ad, quidem sed, iure quos omnis vel tenetur
+                                                                numquam esse laudantium
+                                                                natus rem in iusto saepe obcaecati delectus?
+                                                            </p>
+                                                        </div>
+                                                        <div class="site__list__category__meal">
+                                                            <a href="#" class="site__list__category__meal__direction"
+                                                                id="all-category">
+                                                                <h4 class="list__meal__category">All category</h4>
+                                                                <div class="list__direction">
+                                                                    <span class="mdi mdi-arrow-right"></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="banner__right__content">
+                                                    <div class="category__meal">
+                                                        <div class="category__meal__list">
+
+                                                        </div>
+                                                        <div class="category__pagination">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main__all__modal">
+
+                                                <div class="all__category__modal">
+                                                    <a href="#" class="close__modal">
+                                                        <span></span>
+                                                    </a>
+                                                    <div class="container">
+                                                        <div class="modal__all__list__category">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="see__more">
+                                                    <a href="#" class="close__modal">
+                                                        <span></span>
+                                                    </a>
+                                                    <div class="container">
+                                                        <div class="category__retail__list">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="main__content__list__item" id="search">
+                                <div class="container__right">
+                                    <div class="search__result">
+                                        <div class="serach__result__list">
+                                            <p class="result__none"></p>
+                                            <!--  result search -->
+                                        </div>
+                                    </div>
+                                    <div class="recipe__search">
+                                        <div class="search__modal">
+                                            <div class="close__modal">
+                                                <span></span>
+                                            </div>
+                                            <div class="search">
+                                                <input type="text" placeholder="Recherche" id="search-input">
+                                                <span class="mdi mdi-magnify"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="recipe__see__more__modal">
+
+                                        <div class="recipe__see__more__modal__content">
+                                            <!--  <div class="close__modal">
+                                                <span></span>
+                                            </div>
+                                            <div class="recipe__detailed">
+                                                <div class="recipe__detailed__top">
+                                                    <div class="recipe__detailed__img">
+                                                        <img src="${data.meals[0].strMealThumb}" alt="">
+                                                    </div>
+                                                    <div class="name__recipe__detailed">
+                                                        <h4>${data.meals[0].strMeal}</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="recipe__detailed__middle">
+                                                    <div class="recipe__composition">
+                                                        <div class="all__ingredient">
+                                                            <h4>INGREDIENTS</h4>
+                                                            <p class="ingredient">1</p>
+                                                            <p class="ingredient">2</p>
+                                                            <p class="ingredient">3</p>
+                                                            <p class="ingredient">4</p>
+                                                            <p class="ingredient">5</p>
+                                                            <p class="ingredient">6</p>
+                                                            <p class="ingredient">7</p>
+                                                            <p class="ingredient">8</p>
+                                                            <p class="ingredient">9</p>
+                                                            <p class="ingredient">10</p>
+                                                            <p class="ingredient">11</p>
+                                                            <p class="ingredient">12</p>
+                                                            <p class="ingredient">13</p>
+                                                            <p class="ingredient">14</p>
+                                                            <p class="ingredient">15</p>
+                                                        </div>
+                                                        <div class="all__measure">
+                                                            <h4>Mesure</h4>
+                                                            <p class="measure">1</p>
+                                                            <p class="measure">2</p>
+                                                            <p class="measure">3</p>
+                                                            <p class="measure">4</p>
+                                                            <p class="measure">5</p>
+                                                            <p class="measure">6</p>
+                                                            <p class="measure">7</p>
+                                                            <p class="measure">8</p>
+                                                            <p class="measure">9</p>
+                                                            <p class="measure">10</p>
+                                                            <p class="measure">11</p>
+                                                            <p class="measure">12</p>
+                                                            <p class="measure">13</p>
+                                                            <p class="measure">14</p>
+                                                            <p class="measure">15</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="recipe__detailed__bottom">
+                                                    <h4>${data.meals[0].strInstructions}
+                                                        <a href="${data.meals[0].strYoutube}" target="_blank">Regarder
+                                                            la video</a>
+                                                    </h4>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="main__content__list__item" id="add-recipe">
+                                <div class="container__right">
+                                    <form>
+                                        <h2> AJOUTER UNE RECETTE </h2>
+                                        <hr>
+                                        <div class="add__recipe__form">
+                                            <div class="add__recipe__form__list">
+                                                <div class="add__recipe__form__list__item">
+                                                    <label for="name">Nom de la Recette</label>
+                                                    <input type="text" id="name__recipe">
+                                                </div>
+                                                <div class="add__recipe__form__list__item">
+                                                    <label for="name">Categorie de la Recette</label>
+                                                    <input type="text" id="category-recipe">
+                                                </div>               
+                                                <div class="add__recipe__form__list__item">
+                                                    <label for="name">Nombre de Personnes</label>
+                                                    <input type="number" id="nbrP-recipe">
+                                                </div>
+                                                <div class="add__recipe__form__list__item">
+                                                    <label for="name">Temps de Préparation</label>
+                                                    <input type="text" id="time-recipe">
+                                                </div>                
+                                                <div class="add__recipe__form__list__item">
+                                                    <label for="name">Ingrédients</label>
+                                                    <textarea name="" id="ingredient" cols="" rows="3"></textarea>
+                                                </div>
+                                                <div class="add__recipe__form__list__item">
+                                                    <label for="name">Etapes de la Préparation</label>
+                                                    <textarea name="" id="cooking-stage" cols=""
+                                                        rows="3"></textarea>
+                                                </div>                                              
+                                            </div>
+                                            <div class="error__part">
+                                                <p class="error"></p>
+                                            </div>
+                                            <div class="add__recipe__btn">
+                                                <button class="add__recipe">Ajouter</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+                            <li class="main__content__list__item" id="mes-recettes">
+                                <div class="container__right">
+                                    <div class="list__table">
+                                        <h2>MES RECETTES</h2>
+                                        <hr>
+                                        <div class="recipes__list">
+                                            <table>
+                                                <thead>
+                                                    <tr>
+                                                        <th>ID</th>
+                                                        <th>NOM</th>
+                                                        <th>CATEGORIE</th>
+                                                        <th>TEMPS DE PREPRARATION</th>
+                                                        <th>ACTIONS</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <!--<tr>
+                                                    <td>0</td>
+                                                    <td>SALADE</td>
+                                                    <td>VEGE</td>
+                                                    <td>1h</td>
+                                                    <td>
+                                                        <span class="mdi mdi-magnify"></span>
+                                                        <span class="mdi mdi-magnify"></span>
+                                                        <span class="mdi mdi-magnify"></span>
+                                                    </td>
+                                                </tr> -->
+                                                </tbody>
+                                            </table>
+                                            <div class="recipes__list__item__seemore__modal">
+                                                <!-- <div class="close__modal">
+                                                <span></span>
+                                            </div>
+                                            <div class="recipes__list__item__seemore">
+                                                <div class="name__recipe">
+                                                    <h4> NOM DE LA RECETTE</h4>
+                                                    <p>554</p>
+                                                </div>
+                                                <div class="category__recipe">
+                                                    <h4> CATEGORY DE LA RECETTE</h4>
+                                                    <p>55</p>
+                                                </div>
+                                                <div class="nbr__recipe">
+                                                    <h4>NOMBRE DE PERSONNE</h4>
+                                                    <p>154</p>
+                                                </div>
+                                                <div class="time__recipe">
+                                                    <h4>TEMPS DE PREPARATION</h4>
+                                                    <p>578</p>
+                                                </div>
+                                                <div class="recipe__detailled">
+                                                    <div class="ingredient__recipe__detailled">
+                                                        <h4>INGREDIENTS</h4>
+                                                        <p>587+</p>
+                                                    </div>
+                                                    <div class="ingredient__recipe__detailled">
+                                                        <h4>ETAPES DE LA PREPARATION</h4>
+                                                        <p>777</p>
+                                                    </div>
+                                                </div>
+                                            </div>  -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="main__content__list__item" id="mes-enregistrements">
+                                <div class="container__right">
+                                    <div class="save">
+                                        <h2>Mes Enrégistrements</h2>
+                                        <hr>
+                                        <div class="save__list">
+                                        <!--  <p style="color: aliceblue;"  class="essai">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit. Ea
+                                                magni beatae sint
+                                                necessitatibus voluptatem quasi voluptate ratione iste modi vero ex quo,
+                                                blanditiis
+                                                in ad? Minus, libero consequuntur? Harum, quo.
+                                            </p> -->
+                                        </div>
+                                        <div class="save__recipe__item__modal">
+                                            <!-- <div class="recipe__detailed__middle">
+                                                <div class="recipe__composition">
+                                                    <div class="all__ingredient">
+                                                        <h4>INGREDIENTS</h4>
+                                                        <p class="ingredient">1-) ${data.meals[0].strIngredient1}</p>
+                                                        <p class="ingredient">2-) ${data.meals[0].strIngredient2}</p>
+                                                        <p class="ingredient">3-) ${data.meals[0].strIngredient3}</p>
+                                                        <p class="ingredient">4-) ${data.meals[0].strIngredient4}</p>
+                                                        <p class="ingredient">5-) ${data.meals[0].strIngredient5}</p>
+                                                        <p class="ingredient">6-) ${data.meals[0].strIngredient6}</p>
+                                                        <p class="ingredient">7-) ${data.meals[0].strIngredient7}</p>
+                                                        <p class="ingredient">8-) ${data.meals[0].strIngredient8}</p>
+                                                        <p class="ingredient">9-) ${data.meals[0].strIngredient9}</p>
+                                                        <p class="ingredient">10) -${data.meals[0].strIngredient10}</p>
+                                                        <p class="ingredient">11-) ${data.meals[0].strIngredient11}</p>
+                                                        <p class="ingredient">12-) ${data.meals[0].strIngredient12}</p>
+                                                        <p class="ingredient">13-) ${data.meals[0].strIngredient13}</p>
+                                                        <p class="ingredient">14-) ${data.meals[0].strIngredient14}</p>
+                                                        <p class="ingredient">15-) ${data.meals[0].strIngredient15}</p>
+                                                    </div>
+                                                    <div class="all__measure">
+                                                        <h4>MEASURE</h4>
+                                                        <p class="measure">1-) ${data.meals[0].strMeasure1}</p>
+                                                        <p class="measure">2-) ${data.meals[0].strMeasure2}</p>
+                                                        <p class="measure">3-) ${data.meals[0].strMeasure3}</p>
+                                                        <p class="measure">4-) ${data.meals[0].strMeasure4}</p>
+                                                        <p class="measure">5-) ${data.meals[0].strMeasure5}</p>
+                                                        <p class="measure">6-) ${data.meals[0].strMeasure6}</p>
+                                                        <p class="measure">7-) ${data.meals[0].strMeasure7}</p>
+                                                        <p class="measure">8-) ${data.meals[0].strMeasure8}</p>
+                                                        <p class="measure">9-) ${data.meals[0].strMeasure9}</p>
+                                                        <p class="measure">10-) ${data.meals[0].strMeasure10}</p>
+                                                        <p class="measure">11-) ${data.meals[0].strMeasure11}</p>
+                                                        <p class="measure">12-) ${data.meals[0].strMeasure12}</p>
+                                                        <p class="measure">13-) ${data.meals[0].strMeasure13}</p>
+                                                        <p class="measure">14-) ${data.meals[0].strMeasure14}</p>
+                                                        <p class="measure">15-) ${data.meals[0].strMeasure15}</p>
+                                                    </div>
+                                                </div>
+                                            </div>-->
+                                        </div>
+                                    </div>    
+                                </div>
+                            </li>
+                        </ul>
+                    </div> 
+            </div>
+            </main>
+        </div>
+    </div>
+
+
+    </div>
+
+    <script src="recettes.js"></script>
+</body>
+
+</html>
